@@ -27,9 +27,10 @@ const StyledSubmit = styled.input`
 `;
 
 const StyledInput = styled.input`
-    width: 100%;
+    width: 20rem;
     height: 3rem;
     padding: 0.75rem;
+    margin-bottom: 1rem;
     border: ${props => props.err ? "1px solid red" : "1px solid rgb(156 163 175)"};
     border-radius: 0.25rem;
     background-color: rgb(249 250 251);
